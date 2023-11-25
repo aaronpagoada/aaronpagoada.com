@@ -1,0 +1,7 @@
+.intro > .intro-text > .active {
+  color: #00ce11;
+}
+
+.intro > .intro-text > .inactive {
+  opacity: 10%;
+}
