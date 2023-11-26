@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import "../component-styles/Intro.css";
 import titleCycle from "../js/titleCycle";
+import "../component-styles/Intro.css";
 
 function Intro(){
   useEffect(() => {
@@ -11,7 +11,7 @@ function Intro(){
     <div className="intro">
       <h1>Aaron Pagoada</h1>
       <div className="intro-text">
-        <h2 id="title" className="active">Software engineer</h2>
+        <h2 id="title" className="active">Software Engineer</h2>
       </div>
     </div>
   )

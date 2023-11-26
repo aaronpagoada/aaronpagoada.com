@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import photoCycle from "../js/photoCycle";
 import "../component-styles/About.css";
 
 function About(){
+	useEffect(() => {
+		photoCycle()
+	}, [])
+
   return(
     <div className="about">
       <h3>About</h3>
       <div className="about-flex-container">
         <div className="image-box">
-          <img src={require('../img/DSC00633.JPG')} alt="Blair Witch Stand" />
+          <img id="about-image" src={require('../img/BoweryInterns-16.jpg')} alt="Bowery Headshot" />
         </div>
         <div className="about-text">
           <p>
