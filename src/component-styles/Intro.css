@@ -1,7 +1,20 @@
-.intro > .intro-text > .active {
-  color: #00ce11;
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100px;
 }
 
-.intro > .intro-text > .inactive {
-  opacity: 10%;
+.intro > h1 {
+	margin-bottom: 0;
+}
+
+.intro > .intro-text > h2 {
+	height: 20px;
+	margin-top: 0px;
+	opacity: 80%;
+}
+
+.intro > .intro-text > .active {
+  color: #00ce11;
 }
