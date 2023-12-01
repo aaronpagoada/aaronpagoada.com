@@ -21,14 +21,14 @@
   justify-content: space-between;
 }
 
-.links > a { 
+.links > * { 
   text-decoration: none;
   color: #00ce11;
   font-size: 18px;
   position: relative;
 }
 
-.links > a::after { 
+.links > *::after { 
   content: '';
   position: absolute;
   width: 100%;
@@ -41,7 +41,7 @@
   transition: transform 0.25s ease-out;
 }
 
-.links > a:hover::after { 
+.links > *:hover::after { 
   transform: scaleX(1);
   transform-origin: bottom left;
 }
