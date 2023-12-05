@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout'
+import MainLayout from './components/layouts/MainLayout';
+import SubLayout from './components/layouts/SubLayout';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,13 +13,17 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path='about' element={<About />} />
-          <Route path='projects' element={<Projects />} />
-          <Route path='education' element={<Education />} />
-          <Route path='map' element={<Map />} />
-        </Route>
+        <Route path='/'>
+					<Route element={<MainLayout />}> 
+          	<Route index element={<Home />} />	
+					</Route>
+					<Route element={<SubLayout />}>
+						<Route path='about' element={<About />} />
+						<Route path='projects' element={<Projects />} />
+						<Route path='education' element={<Education />} />
+						<Route path='map' element={<Map />} />
+					</Route>
+				</Route>
       </Routes>
     </BrowserRouter>
   );

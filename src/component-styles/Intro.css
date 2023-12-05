@@ -3,6 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	height: 100px;
+	align-items: center;
 }
 
 .intro > h1 {
@@ -16,5 +17,5 @@
 }
 
 .intro > .intro-text > .active {
-  color: #00ce11;
+  color: #ffffff;
 }

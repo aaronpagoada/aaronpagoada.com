@@ -1,4 +1,4 @@
-.navbar {
+.sub-layout > .navbar {
   position: relative;
   display: flex;
   justify-content: center;
@@ -8,27 +8,27 @@
   background-color: #252725;
 }
 
-.navbar > nav {
+.sub-layout > .navbar > nav {
   display: flex;
   justify-content: space-between;
   width: 90%;
 }
 
-.navbar > nav > .links { 
+.sub-layout > .navbar > nav > .links { 
   display: flex;
   align-items: center;
   width: 25%;
   justify-content: space-between;
 }
 
-.links > * { 
+.sub-layout > .navbar > nav > .links > * { 
   text-decoration: none;
   color: #00ce11;
   font-size: 18px;
   position: relative;
 }
 
-.links > *::after { 
+.sub-layout > .navbar > nav > .links > *::after { 
   content: '';
   position: absolute;
   width: 100%;
@@ -41,12 +41,12 @@
   transition: transform 0.25s ease-out;
 }
 
-.links > *:hover::after { 
+.sub-layout > .navbar > nav > .links > *:hover::after { 
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-.navbar > nav > .button { 
+.sub-layout > .navbar > nav > .button { 
   display: flex;
   align-items: center;
 }

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
-import AppDrawer from "./AppDrawer";
-import logo from "../img/269f1dbe9cf5a4bedbd2ed10f35d4dec.png";
-import '../component-styles/Layout.css';
+import AppDrawer from "../AppDrawer";
+import logo from "../../img/269f1dbe9cf5a4bedbd2ed10f35d4dec.png";
+import '../../component-styles/MainLayout.css';
 
-function Layout() {
+function MainLayout() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
   let big = windowWidth > 1320 ? true : false;
   useEffect(() => {
@@ -16,7 +16,7 @@ function Layout() {
   }, [])
 
   return (
-    <div className="layout">
+    <div className="main-layout">
       <div className="navbar">
         <nav>
           <Link to="/">
@@ -40,7 +40,6 @@ function Layout() {
               <AppDrawer />
             </div>
           } 
-          
         </nav>
       </div>
       <Outlet />
@@ -48,4 +47,4 @@ function Layout() {
   )
 }
 
-export default Layout;
+export default MainLayout;
