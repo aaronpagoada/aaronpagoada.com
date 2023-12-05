@@ -27,7 +27,13 @@ function AppDrawer(){
 					{['About', 'Projects', 'Education', 'Map'].map((linkText) => (
 						<ListItem key={linkText} disablePadding>
 							<ListItemButton>
-								<Link to={`/${linkText.toLowerCase()}`}>
+								<Link 
+                  to={`/${linkText.toLowerCase()}`}
+                  style={{ 
+                    textDecoration: 'none',
+                    color: '#000000'
+                  }}  
+                >
 									<ListItemText primary={linkText} />
 								</Link>
 							</ListItemButton>
