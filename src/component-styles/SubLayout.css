@@ -14,6 +14,10 @@
   width: 90%;
 }
 
+.sub-layout > .navbar > nav > a > img {
+	filter: brightness(0) invert(1);
+}
+
 .sub-layout > .navbar > nav > .links { 
   display: flex;
   align-items: center;
@@ -23,7 +27,7 @@
 
 .sub-layout > .navbar > nav > .links > * { 
   text-decoration: none;
-  color: #00ce11;
+  color: #ffffff;
   font-size: 18px;
   position: relative;
 }
@@ -36,7 +40,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #00ce11;
+  background-color: #ffffff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
