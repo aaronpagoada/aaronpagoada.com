@@ -18,6 +18,10 @@
 	filter: brightness(0) invert(1);
 }
 
+.sub-layout > .navbar > nav > a > img:hover {
+	filter: grayscale(1);
+}
+
 .sub-layout > .navbar > nav > .links { 
   display: flex;
   align-items: center;
