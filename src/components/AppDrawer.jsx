@@ -10,7 +10,7 @@ function AppDrawer(){
   return (
     <div>
       <IconButton
-        onClick={() => setIsOpen(true)}
+        onClick={() => setIsOpen(!isOpen)}
         aria-label="open-links"
       >
         <MenuIcon 
@@ -18,8 +18,31 @@ function AppDrawer(){
           sx={{ color: "#ffffff"}}
         />
       </IconButton>
-      <Drawer 
-        anchor="right"
+			{isOpen && 
+				<div className="drawer">
+					<div className="drawer-links">
+						<List>
+							{['About', 'Projects', 'Education', 'Map'].map((linkText) => (
+								<ListItem key={linkText} disablePadding>
+									<ListItemButton>
+										<Link 
+											to={`/${linkText.toLowerCase()}`}
+											style={{ 
+												textDecoration: 'none',
+												color: '#000000',
+											}}  
+										>
+											<ListItemText primary={linkText} />
+										</Link>
+									</ListItemButton>
+								</ListItem>
+							))}
+						</List>	
+					</div>
+				</div>
+			}
+      {/* <Drawer 
+        anchor="bottom"
         open={isOpen}
         onClose={() => setIsOpen(false)}
       >
@@ -40,7 +63,7 @@ function AppDrawer(){
 						</ListItem>
 					))}
 				</List>
-      </Drawer>
+      </Drawer> */}
     </div>
   )
 }
