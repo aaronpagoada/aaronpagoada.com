@@ -5,8 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Education from './components/Education';
-import Map from './components/Map';
-//import MainBody from './components/MainBody';
+import Work from './components/Work';
 import './App.css';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
 						<Route path='about' element={<About />} />
 						<Route path='projects' element={<Projects />} />
 						<Route path='education' element={<Education />} />
-						<Route path='map' element={<Map />} />
+						<Route path='work' element={<Work />} />
 					</Route>
 				</Route>
       </Routes>

@@ -22,7 +22,7 @@ function MainDrawer(){
 				<div className="drawer">
 					<div className="drawer-links">
 						<List>
-							{['About', 'Projects', 'Education', 'Map'].map((linkText) => (
+							{['About', 'Projects', 'Education', 'Work'].map((linkText) => (
 								<ListItem key={linkText} disablePadding>
 									<ListItemButton>
 										<Link 
