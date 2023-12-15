@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
-import AppDrawer from "../AppDrawer";
+import SubDrawer from "../SubDrawer";
 import logo from "../../img/269f1dbe9cf5a4bedbd2ed10f35d4dec.png";
 import '../../component-styles/SubLayout.css';
 
@@ -37,7 +37,7 @@ function SubLayout(){
 					}
 					{!big &&
 						<div className="button">
-							<AppDrawer />
+							<SubDrawer />
 						</div>
 					} 
 				</nav>

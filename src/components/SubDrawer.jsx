@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Drawer, IconButton, List, ListItem, ListItemButton, ListItemText } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
-import '../component-styles/AppDrawer.css';
 
-function AppDrawer(){
-  const [isOpen, setIsOpen] = useState(false)
+function SubDrawer(){
+	const [isOpen, setIsOpen] = useState(false)
 
-  return (
-    <div>
-      <IconButton
+	return(
+		<div>
+			<IconButton
         onClick={() => setIsOpen(!isOpen)}
         aria-label="open-links"
       >
@@ -18,31 +17,8 @@ function AppDrawer(){
           sx={{ color: "#ffffff"}}
         />
       </IconButton>
-			{isOpen && 
-				<div className="drawer">
-					<div className="drawer-links">
-						<List>
-							{['About', 'Projects', 'Education', 'Map'].map((linkText) => (
-								<ListItem key={linkText} disablePadding>
-									<ListItemButton>
-										<Link 
-											to={`/${linkText.toLowerCase()}`}
-											style={{ 
-												textDecoration: 'none',
-												color: '#000000',
-											}}  
-										>
-											<ListItemText primary={linkText} />
-										</Link>
-									</ListItemButton>
-								</ListItem>
-							))}
-						</List>	
-					</div>
-				</div>
-			}
-      {/* <Drawer 
-        anchor="bottom"
+			<Drawer 
+        anchor="right"
         open={isOpen}
         onClose={() => setIsOpen(false)}
       >
@@ -63,9 +39,9 @@ function AppDrawer(){
 						</ListItem>
 					))}
 				</List>
-      </Drawer> */}
-    </div>
-  )
+      </Drawer>
+		</div>
+	)
 }
 
-export default AppDrawer
+export default SubDrawer

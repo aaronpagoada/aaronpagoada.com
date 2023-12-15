@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
-import AppDrawer from "../AppDrawer";
+import MainDrawer from "../MainDrawer";
 import logo from "../../img/269f1dbe9cf5a4bedbd2ed10f35d4dec.png";
 import '../../component-styles/MainLayout.css';
 
@@ -37,7 +37,7 @@ function MainLayout() {
           }
           {!big &&
             <div className="button">
-              <AppDrawer />
+              <MainDrawer />
             </div>
           } 
         </nav>
