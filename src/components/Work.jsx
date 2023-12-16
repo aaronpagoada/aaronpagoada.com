@@ -1,8 +1,11 @@
 import React from "react";
+import WorkTimeline from "./WorkTimeline";
 
 function Work(){
   return (
-    <div className="map">Work</div>
+    <div className="work">
+      <WorkTimeline />
+    </div>
   )
 }
 

@@ -7,7 +7,6 @@ import {
 	TimelineOppositeContent, 
 	TimelineSeparator 
 } from "@mui/lab";
-import "../component-styles/TimelineCard.css";
 
 function TimelineCard({ time, activity, details }) {
 	return (
