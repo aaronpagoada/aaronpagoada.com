@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Typography } from "@mui/material";
 import { 
 	TimelineConnector,
 	TimelineContent,
@@ -8,15 +9,29 @@ import {
 	TimelineSeparator 
 } from "@mui/lab";
 
-function TimelineCard({ time, activity, details }) {
+
+function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails }) {
+	const [isOpen, setIsOpen] = useState(false)
+
 	return (
-		<TimelineItem>
+		<TimelineItem onClick={() => setIsOpen(!isOpen)}>
 			<TimelineOppositeContent
 				sx={{
 					margin: "auto 0"
 				}}
 			>
-				{time}
+				{
+					!isOpen && 
+					<Typography color="text.secondary" variant="caption">{time}</Typography>
+				}
+				{
+					isOpen && 
+					<div>
+						<Typography color="text.secondary" variant="caption">{time}</Typography>
+						<Typography variant="body1">{expandedTime}</Typography>
+						<Typography color="text.secondary" variant="caption">{expandedLocation}</Typography>
+					</div>
+				}
 			</TimelineOppositeContent>
 			<TimelineSeparator>
 				<TimelineConnector />
@@ -26,8 +41,21 @@ function TimelineCard({ time, activity, details }) {
 				<TimelineConnector />
 			</TimelineSeparator>
 			<TimelineContent>
-				<p className="card-activity">{activity}</p>
-				<p className="card-details">{details}</p>
+				{
+					!isOpen &&
+					<div>
+						<Typography variant="h6">{activity}</Typography>
+						<Typography color="text.secondary" variant="subtitle2">{location}</Typography>
+					</div>
+				}
+				{
+					isOpen &&
+					<div>
+						<Typography variant="h6">{activity}</Typography>
+						<Typography color="text.secondary" variant="subtitle2">{location}</Typography>
+						<Typography color="text.secondary" variant="caption">{expandedDetails}</Typography>
+					</div>
+				}
 			</TimelineContent>
 		</TimelineItem>
 	)

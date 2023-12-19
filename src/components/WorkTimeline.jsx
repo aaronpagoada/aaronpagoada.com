@@ -8,22 +8,22 @@ function WorkTimeline(){
       <TimelineCard 
         time="2021"
         activity="Software Engineer Intern"
-        details="WatchWire"
+        location="WatchWire"
       />
       <TimelineCard 
         time="2022"
         activity="Computer Science & Mathematics Department Peer Mentor"
-        details="John Jay College"
+        location="John Jay College"
       />
       <TimelineCard 
         time="2022"
         activity="Software Engineer Intern"
-        details="Bowery Farming"
+        location="Bowery Farming"
       />
       <TimelineCard 
         time="2023"
         activity="Software Engineer Intern"
-        details="GameChanger"
+        location="GameChanger"
       />
     </Timeline>
   )
