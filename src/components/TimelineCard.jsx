@@ -10,7 +10,7 @@ import {
 } from "@mui/lab";
 
 
-function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails }) {
+function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails, icon }) {
 	const [isOpen, setIsOpen] = useState(false)
 
 	return (
@@ -36,7 +36,7 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 			<TimelineSeparator>
 				<TimelineConnector />
 					<TimelineDot>
-						{/* Icon? */}
+						{icon}
 					</TimelineDot>
 				<TimelineConnector />
 			</TimelineSeparator>
