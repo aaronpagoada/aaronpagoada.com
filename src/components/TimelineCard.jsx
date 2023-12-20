@@ -53,7 +53,17 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 					<div>
 						<Typography variant="h6">{activity}</Typography>
 						<Typography color="text.secondary" variant="subtitle2">{location}</Typography>
-						<Typography color="text.secondary" variant="caption">{expandedDetails}</Typography>
+						{expandedDetails.map((detail) => {
+              return (
+                <Typography 
+                  color="text.secondary" 
+                  variant="caption"
+                  display="block"
+                >
+                  {`• ${detail}`}
+                </Typography>
+              )
+            })}
 					</div>
 				}
 			</TimelineContent>
