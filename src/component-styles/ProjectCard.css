@@ -1,0 +1,8 @@
+.project-card {
+  height: 250px;
+  width: 350px;
+  background-color: beige;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: aqua;
+}

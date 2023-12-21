@@ -1,0 +1,49 @@
+@media (min-width: 1024px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 36px;
+    margin-left: 36px;
+  }
+
+  .projects > .projects-cards {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 60vh;
+  }
+
+  .projects > .projects-text {
+    width: 75%;
+    margin-top: 36px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects > .projects-cards {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 140vh;
+  }
+
+  .projects > .projects-text {
+    width: 75%;
+    margin-top: 36px;
+  }
+  
+}
