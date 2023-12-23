@@ -38,6 +38,7 @@ function Projects(){
               description={project.description}
               language={project.language}
               photo={projectImage}
+              link={project.link}
             />
           )
         })}

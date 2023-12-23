@@ -4,25 +4,29 @@
       "name": "Pizza Rat",
       "description": "An MTA-based Discord bot",
       "language": "python",
-      "photo": "pizzarat"
+      "photo": "pizzarat",
+      "link": "https://github.com/aaronpagoada/pizza-rat.py"
     },
     {
       "name": "Pagoadadotcom",
       "description": "This website!",
       "language": "react",
-      "photo": "pagoadadotcom"
+      "photo": "pagoadadotcom",
+      "link": "https://github.com/aaronpagoada/pagoadadotcom"
     },
     {
       "name": "Doctor Help",
       "description": "A medical exam record website",
       "language": "react",
-      "photo": "doctorhelp"
+      "photo": "doctorhelp",
+      "link": "https://github.com/The-Ops-HD/Doctor-Help"
     },
     {
       "name": "Watson",
       "description": "A water-tracking Discord bot",
       "language": "javascript",
-      "photo": "watson"
+      "photo": "watson",
+      "link": "https://github.com/aaronpagoada/watson"
     }
   ]
 }

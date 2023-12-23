@@ -1,12 +1,12 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Typography, IconButton } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PythonLogo from "../img/Python.png"
 import JavascriptLogo from "../img/javascript.png"
 import ReactLogo from "../img/logo192.png"
 import "../component-styles/ProjectCard.css"
 
-function ProjectCard({ name, description, language, photo }){
+function ProjectCard({ name, description, language, photo, link }){
   let languageIcon;
 
   switch(language){
@@ -31,7 +31,9 @@ function ProjectCard({ name, description, language, photo }){
         </div>
         <div className="project-info-logos">  
           <img src={languageIcon} alt={language}/>
-          <GitHubIcon sx={{ color: "white"}}/>
+          <IconButton href={link}>
+            <GitHubIcon sx={{ color: "white"}}/>
+          </IconButton>
         </div>
       </div>
     </div>
