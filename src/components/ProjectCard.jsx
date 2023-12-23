@@ -32,7 +32,7 @@ function ProjectCard({ name, description, language, photo, link }){
         <div className="project-info-logos">  
           <img src={languageIcon} alt={language}/>
           <IconButton href={link}>
-            <GitHubIcon sx={{ color: "white"}}/>
+            <GitHubIcon sx={{ color: "white", ":hover": { color: "gray" }}}/>
           </IconButton>
         </div>
       </div>
