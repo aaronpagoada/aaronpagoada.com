@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "Pizza Rat",
+      "description": "An MTA-based Discord bot",
+      "language": "python",
+      "photo": "pizzarat"
+    },
+    {
+      "name": "Pagoadadotcom",
+      "description": "This website!",
+      "language": "react",
+      "photo": "pagoadadotcom"
+    },
+    {
+      "name": "Doctor Help",
+      "description": "A medical exam record website",
+      "language": "react",
+      "photo": "doctorhelp"
+    },
+    {
+      "name": "Watson",
+      "description": "A water-tracking Discord bot",
+      "language": "javascript",
+      "photo": "watson"
+    }
+  ]
+}
