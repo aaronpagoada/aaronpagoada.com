@@ -44,15 +44,15 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 				{
 					!isOpen &&
 					<div>
-						<Typography variant="h6">{activity}</Typography>
-						<Typography color="text.secondary" variant="subtitle2">{location}</Typography>
+						<Typography variant="h6">{location}</Typography>
+						<Typography color="text.secondary" variant="subtitle2">{activity}</Typography>
 					</div>
 				}
 				{
 					isOpen &&
 					<div>
-						<Typography variant="h6">{activity}</Typography>
-						<Typography color="text.secondary" variant="subtitle2">{location}</Typography>
+						<Typography variant="h6">{location}</Typography>
+						<Typography color="text.secondary" variant="subtitle2">{activity}</Typography>
 						{expandedDetails.map((detail) => {
               return (
                 <Typography 
