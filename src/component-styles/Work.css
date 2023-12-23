@@ -3,3 +3,34 @@
 	flex-direction: column;
 	align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .work > .work-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    margin-bottom: 30px;  
+  }
+}
+
+@media (min-width: 1024px) {
+  .work > .work-photos {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 30px;  
+  }
+}
+
+.work > .work-photos > div {
+	height: 250px;
+  width: 350px;
+}
+
+.work > .work-photos > div > img {
+	object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
