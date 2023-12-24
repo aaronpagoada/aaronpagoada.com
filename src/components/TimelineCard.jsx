@@ -14,7 +14,10 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 	const [isOpen, setIsOpen] = useState(false)
 
 	return (
-		<TimelineItem onClick={() => setIsOpen(!isOpen)}>
+		<TimelineItem 
+      onClick={() => setIsOpen(!isOpen)}
+      sx={{ ":hover": { cursor: "pointer" }}}
+    >
 			<TimelineOppositeContent
 				sx={{
 					margin: "auto 0"
