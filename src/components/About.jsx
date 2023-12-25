@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import { Typography } from "@mui/material";
+import { Typography, IconButton } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from "react-router-dom";
 import photoCycle from "../js/photoCycle";
 import "../component-styles/About.css";
@@ -32,6 +34,13 @@ function About(){
           <Typography variant="body1">
             I am a rock climbing coach and instructor at Brooklyn Boulders. I enjoy working with and teaching adults and children how to improve in the sport.
           </Typography>
+					<br/>
+					<IconButton href="https://www.linkedin.com/in/aaronpagoada">
+            <LinkedInIcon sx={{ color: "black" }}/>
+          </IconButton>
+					<IconButton href="https://github.com/aaronpagoada">
+            <GitHubIcon sx={{ color: "black" }}/>
+          </IconButton>
         </div>
       </div>
     </div>
