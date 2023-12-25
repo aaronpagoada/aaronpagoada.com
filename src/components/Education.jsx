@@ -1,9 +1,10 @@
 import React from "react";
 import { Typography } from "@mui/material";
 import EducationTimeline from "./EducationTimeline";
-import Forensics from "../img/forensics.jpg"
+import SoccerHS from "../img/soccerhs2.jpg"
 import WSC from "../img/wsc.jpg"
 import Climbing from "../img/climbing.jpg"
+import SoccerUni from "../img/socceruni.jpeg"
 import "../component-styles/Education.css"
 
 function Education(){
@@ -13,8 +14,8 @@ function Education(){
 			<EducationTimeline />
 			<div className="education-photos">
         <div>
-          <img src={Forensics} alt="Forensics" />
-          <Typography variant="caption">Dec 2018, forensics lab, middle</Typography>
+          <img src={SoccerHS} alt="BTHS Soccer" />
+          <Typography variant="caption">Sep 2018, Brooklyn Tech varsity soccer, orange jersey</Typography>
         </div>
         <div>
           <img src={WSC} alt="WSC" />
@@ -23,6 +24,10 @@ function Education(){
 				<div>
           <img src={Climbing} alt="Climbing" />
           <Typography variant="caption">Apr 2022, leading a climbing outing for my peers in the John Jay Honors Program, squatting</Typography>
+        </div>
+				<div>
+          <img src={SoccerUni} alt="JJ Soccer" />
+          <Typography variant="caption">Sep 2022, John Jay goalkeepers, right</Typography>
         </div>
       </div>
 		</div>
