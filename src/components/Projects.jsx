@@ -15,7 +15,7 @@ function Projects(){
       <h3>Projects</h3>
       <div className="projects-text">
         <Typography variant="body1">
-					I've worked on many projects ranging from component building and design work to user authing and data pipeline management. Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.
+					Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.
 				</Typography>
 				<br/>
 				<Typography variant="body1">
