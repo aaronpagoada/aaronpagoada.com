@@ -3,3 +3,38 @@
 	flex-direction: column;
 	align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .education > .education-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
+    margin-bottom: 30px;  
+  }
+}
+
+@media (min-width: 1024px) {
+  .education > .education-photos {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 30px;  
+  }
+}
+
+.education > .education-photos > div {
+	height: 250px;
+  width: 350px;
+}
+
+.education > .education-photos > div > img {
+	object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.education > .education-photos > div:nth-child(2) > img {
+	object-position: 50% 0%;
+}
