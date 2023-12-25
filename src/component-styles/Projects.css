@@ -47,3 +47,7 @@
   }
   
 }
+
+.projects > .projects-text > p > a {
+	color: inherit;
+}

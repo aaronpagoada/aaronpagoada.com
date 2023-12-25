@@ -1,4 +1,6 @@
 import React from "react";
+import { Typography } from "@mui/material";
+import { Link } from "react-router-dom"
 import ProjectCard from "./ProjectCard";
 import PizzaRat from "../img/PizzaRat.png"
 import PagoadaDotCom from "../img/Website.png"
@@ -12,7 +14,13 @@ function Projects(){
     <div className="projects">
       <h3>Projects</h3>
       <div className="projects-text">
-        Ut id ante justo. Sed elementum eleifend nulla nec ullamcorper. Praesent porta eros vitae neque ultrices pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas porttitor neque at hendrerit congue. Fusce risus turpis, volutpat sit amet elit at, pharetra dapibus lectus. Fusce eleifend diam varius, mollis mauris a, pulvinar sapien. Duis id dui maximus, convallis urna id, cursus ligula. Cras turpis eros, vulputate at aliquam in, facilisis tempor nulla. Praesent in quam iaculis, suscipit orci quis, auctor diam. Aenean id ex vel orci placerat tincidunt. Sed sagittis metus ut vestibulum aliquam.
+        <Typography variant="body1">
+					I've worked on many projects ranging from component building and design work to user authing and data pipeline management. Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.
+				</Typography>
+				<br/>
+				<Typography variant="body1">
+					All my projects are hosted on <Link to="https://github.com/aaronpagoada">Github</Link>.
+				</Typography>
       </div>
       <div className="projects-cards">
         {data.projects.map((project) => {
