@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 import photoCycle from "../js/photoCycle";
 import "../component-styles/About.css";
 
@@ -15,12 +17,21 @@ function About(){
           <img id="about-image" src={require('../img/BoweryInterns-16.jpg')} alt="Bowery Headshot" />
         </div>
         <div className="about-text">
-          <p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ultrices nibh. Aenean vel orci sem. Curabitur pellentesque placerat nunc et consequat. Quisque porttitor arcu lectus, in pellentesque erat fringilla at. Integer lobortis mi nec ex ornare, quis aliquam magna vestibulum. Phasellus magna lorem, porta sit amet erat in, hendrerit rutrum diam. Donec tincidunt tellus vestibulum urna accumsan sodales. Nunc et laoreet diam. Mauris vitae leo ultricies lectus gravida tincidunt. Aliquam mi sapien, consectetur eget massa eget, varius posuere urna. Sed pharetra cursus lectus non mattis. Mauris ac ex eu tortor elementum fermentum. Integer aliquet sapien sed posuere commodo. Duis ac odio euismod, posuere turpis id, eleifend mi. Nullam commodo convallis lorem. Vivamus vehicula nisi eros.
-					</p>
-					<p>
-						Ut id ante justo. Sed elementum eleifend nulla nec ullamcorper. Praesent porta eros vitae neque ultrices pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas porttitor neque at hendrerit congue. Fusce risus turpis, volutpat sit amet elit at, pharetra dapibus lectus. Fusce eleifend diam varius, mollis mauris a, pulvinar sapien. Duis id dui maximus, convallis urna id, cursus ligula. Cras turpis eros, vulputate at aliquam in, facilisis tempor nulla. Praesent in quam iaculis, suscipit orci quis, auctor diam. Aenean id ex vel orci placerat tincidunt. Sed sagittis metus ut vestibulum aliquam.
-					</p>
+          <Typography variant="body1">
+            Hi, I'm Aaron!
+          </Typography>
+          <br />
+					<Typography variant="body1">
+            I recently graduated from Macaulay Honors College at John Jay College where I studied Computer Science and Information Security.
+          </Typography>
+          <br />
+          <Typography variant="body1">
+            In the past, I've interned on software teams at <Link to="https://gc.com/">GameChanger</Link>, <Link to="https://bowery.co/">Bowery Farming</Link>, and <Link to="https://watchwire.ai/">WatchWire</Link>. I've built modern web pages and created components to design specs. I've also integrated third-party app APIs with existing infrastructure and cleaned up data pipelines. I also worked in John Jay's Computer Science and Mathematics department as a peer mentor where I advised students every week on how to excel in school and establish the foundations for their future technical careers.
+          </Typography>
+          <br />
+          <Typography variant="body1">
+            I am a rock climbing coach and instructor at Brooklyn Boulders. I enjoy working with and teaching adults and children how to improve in the sport.
+          </Typography>
         </div>
       </div>
     </div>
