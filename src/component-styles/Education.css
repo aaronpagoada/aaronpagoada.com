@@ -14,13 +14,22 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1536px) {
   .education > .education-photos {
     display: flex;
     justify-content: space-around;
 		height: 625px;
     width: 90%; 
 		flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1536px) {
+  .education > .education-photos {
+    display: flex;
+    justify-content: space-around;
+		height: 325px;
+    width: 90%;
   }
 }
 
