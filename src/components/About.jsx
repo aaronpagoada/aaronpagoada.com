@@ -1,16 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Typography, IconButton } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from "react-router-dom";
-import photoCycle from "../js/photoCycle";
 import "../component-styles/About.css";
 
 function About(){
-	useEffect(() => {
-		photoCycle()
-	}, [])
-
   return(
     <div className="about">
       <h3>About</h3>
