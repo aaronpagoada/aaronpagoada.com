@@ -27,7 +27,7 @@ function About(){
           </Typography>
           <br />
           <Typography variant="body1">
-            I am a rock climbing coach and instructor at Brooklyn Boulders. I enjoy working with and teaching adults and children how to improve in the sport.
+            I am a rock climbing coach and instructor at Brooklyn Boulders. I enjoy teaching both adults and children how to improve in the sport.
           </Typography>
 					<br/>
 					<IconButton href="https://www.linkedin.com/in/aaronpagoada">
