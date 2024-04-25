@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pagoadadotcom/static/css/main.3c26950a.css",
-    "main.js": "/pagoadadotcom/static/js/main.f55f6d9b.js",
+    "main.js": "/pagoadadotcom/static/js/main.821e74a8.js",
     "static/js/787.24b48983.chunk.js": "/pagoadadotcom/static/js/787.24b48983.chunk.js",
     "static/media/climbing.jpg": "/pagoadadotcom/static/media/climbing.610ca64d835e14107f3e.jpg",
     "static/media/Website.png": "/pagoadadotcom/static/media/Website.389c8b796304acec589c.png",
@@ -19,11 +19,11 @@
     "static/media/Watson.png": "/pagoadadotcom/static/media/Watson.26d1ee335da26cf92b88.png",
     "index.html": "/pagoadadotcom/index.html",
     "main.3c26950a.css.map": "/pagoadadotcom/static/css/main.3c26950a.css.map",
-    "main.f55f6d9b.js.map": "/pagoadadotcom/static/js/main.f55f6d9b.js.map",
+    "main.821e74a8.js.map": "/pagoadadotcom/static/js/main.821e74a8.js.map",
     "787.24b48983.chunk.js.map": "/pagoadadotcom/static/js/787.24b48983.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c26950a.css",
-    "static/js/main.f55f6d9b.js"
+    "static/js/main.821e74a8.js"
   ]
 }
