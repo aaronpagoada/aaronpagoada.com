@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/pagoadadotcom/static/css/main.de0c20d4.css",
-    "main.js": "/pagoadadotcom/static/js/main.d103f4fa.js",
+    "main.css": "/pagoadadotcom/static/css/main.3c26950a.css",
+    "main.js": "/pagoadadotcom/static/js/main.d34566f8.js",
     "static/js/787.24b48983.chunk.js": "/pagoadadotcom/static/js/787.24b48983.chunk.js",
     "static/media/climbing.jpg": "/pagoadadotcom/static/media/climbing.610ca64d835e14107f3e.jpg",
-    "static/media/PST00130.JPG": "/pagoadadotcom/static/media/PST00130.a5bf68fc68ef2aba8f09.JPG",
     "static/media/Website.png": "/pagoadadotcom/static/media/Website.389c8b796304acec589c.png",
-    "static/media/BoweryInterns-16.jpg": "/pagoadadotcom/static/media/BoweryInterns-16.c251e66886decfd2c12b.jpg",
     "static/media/wsc.jpg": "/pagoadadotcom/static/media/wsc.e51975bb021ff7b21ce6.jpg",
-    "static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.jpeg": "/pagoadadotcom/static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.4726781ceac2526e4bbd.jpeg",
+    "static/media/PST00130.JPG": "/pagoadadotcom/static/media/PST00130.d953303e6251d5ce7906.JPG",
     "static/media/soccerhs2.jpg": "/pagoadadotcom/static/media/soccerhs2.a9904716bf8c55cd8b4f.jpg",
     "static/media/bowery.jpeg": "/pagoadadotcom/static/media/bowery.24cebbf4e998c4c4736b.jpeg",
+    "static/media/BoweryInterns-16.jpg": "/pagoadadotcom/static/media/BoweryInterns-16.820380b8e07937922031.jpg",
     "static/media/socceruni.jpeg": "/pagoadadotcom/static/media/socceruni.8e2ae88df6107fcdfdf2.jpeg",
     "static/media/gc.jpeg": "/pagoadadotcom/static/media/gc.8bfcff8fedcf4c1438da.jpeg",
     "static/media/Python.png": "/pagoadadotcom/static/media/Python.d013e8838b1fdb7a5794.png",
     "static/media/DoctorHelp.png": "/pagoadadotcom/static/media/DoctorHelp.85b11769f622c577fa34.png",
+    "static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.jpeg": "/pagoadadotcom/static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.5a0a162954de7f4ab9ae.jpeg",
     "static/media/PizzaRat.png": "/pagoadadotcom/static/media/PizzaRat.a93b31d38cf2607aad05.png",
     "static/media/Watson.png": "/pagoadadotcom/static/media/Watson.26d1ee335da26cf92b88.png",
     "index.html": "/pagoadadotcom/index.html",
-    "main.de0c20d4.css.map": "/pagoadadotcom/static/css/main.de0c20d4.css.map",
-    "main.d103f4fa.js.map": "/pagoadadotcom/static/js/main.d103f4fa.js.map",
+    "main.3c26950a.css.map": "/pagoadadotcom/static/css/main.3c26950a.css.map",
+    "main.d34566f8.js.map": "/pagoadadotcom/static/js/main.d34566f8.js.map",
     "787.24b48983.chunk.js.map": "/pagoadadotcom/static/js/787.24b48983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0c20d4.css",
-    "static/js/main.d103f4fa.js"
+    "static/css/main.3c26950a.css",
+    "static/js/main.d34566f8.js"
   ]
 }
