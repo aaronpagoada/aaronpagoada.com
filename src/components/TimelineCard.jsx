@@ -10,7 +10,7 @@ import {
 } from "@mui/lab";
 
 
-function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails, icon }) {
+function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails, icon, color }) {
 	const [isOpen, setIsOpen] = useState(false)
 
 	return (
@@ -38,9 +38,18 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 			</TimelineOppositeContent>
 			<TimelineSeparator>
 				<TimelineConnector />
-					<TimelineDot>
-						{icon}
-					</TimelineDot>
+					{
+            !isOpen && 
+            <TimelineDot sx={{ ":hover": { backgroundColor: `${color}`} }}>
+					    {icon}
+				    </TimelineDot>
+          }
+          {
+            isOpen && 
+            <TimelineDot sx={{ backgroundColor: `${color}` }}>
+					    {icon}
+				    </TimelineDot>
+          }
 				<TimelineConnector />
 			</TimelineSeparator>
 			<TimelineContent>

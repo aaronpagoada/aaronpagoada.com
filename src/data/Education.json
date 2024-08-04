@@ -9,7 +9,8 @@
       "details": [
         "Varsity Soccer",
         "World Scholar's Cup"
-      ]
+      ],
+      "color": "#032d64"
     },  
     {
       "school": "Macaulay Honors College at John Jay College",
@@ -21,7 +22,8 @@
         "Men's Soccer",
         "Computer Science Society",
         "Honors Program"
-      ]
+      ],
+      "color": "#f14323"
     }
   ]
 }

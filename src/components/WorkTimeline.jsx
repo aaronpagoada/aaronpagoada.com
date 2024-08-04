@@ -33,6 +33,7 @@ function WorkTimeline(){
             expandedLocation={experience.location}
             expandedDetails={experience.details}
             icon={workIcon}
+            color={experience.color}
           />
         )
       })}

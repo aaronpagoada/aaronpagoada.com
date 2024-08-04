@@ -11,7 +11,8 @@
         "Supported a colleague in learning the technologies above which sped up project progress",
         "Worked in an agile scrum setting, gaining exposure to real-world software development practices"
       ],
-      "icon": "terminal"
+      "icon": "terminal",
+      "color": "#b10c00"
     },
     {
       "company": "John Jay College",
@@ -24,7 +25,8 @@
         "Collaborated with fellow mentors to create academic and professional guidelines for over 100 students providing a structured framework for students to excel in their pursuits",
         "Created and shared a resource document containing technical tutorials, guides, and information about job openings"
       ],
-      "icon": "groups"
+      "icon": "groups",
+      "color": "#232c64"
     },
     {
       "company": "Bowery Farming",
@@ -37,7 +39,8 @@
         "Validated frontend with Cypress tests and backend with Elixir unit tests to ensure that the UI and backend functions worked correctly",
         "Volunteered at farms performing tasks such as moving vegetable trays, hand-harvesting, labeling produce clamshells, and preparing product boxes for delivery"
       ],
-      "icon": "terminal"
+      "icon": "terminal",
+      "color": "#0d3a25"
     },
     {
       "company": "GameChanger",
@@ -50,10 +53,11 @@
         "Developed a Python package to standardize AWS configurations making it easier to set up AWS on any machine, new or old",
         "Created an in-app new-user guide using Swift to make learning how to use the app simpler"
       ],
-      "icon": "terminal"
+      "icon": "terminal",
+      "color": "#00f092"
     },
     {
-      "company": "Vertex Pharmaceuticals",
+      "company": "Vertex",
       "position": "Data Intern",
       "time": "2024",
       "location": "Boston, MA",
@@ -61,7 +65,8 @@
       "details": [
         "Incoming Summer 2024"
       ],
-      "icon": "insights"
+      "icon": "insights",
+      "color": "#52247f"
     }
   ]
 }

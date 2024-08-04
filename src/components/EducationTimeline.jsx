@@ -18,6 +18,7 @@ function EducationTimeline() {
               expandedLocation={experience.location}
               expandedTime={experience.expandedTime}
               icon={<SchoolIcon />}
+              color={experience.color}
             />
           )
         })}
