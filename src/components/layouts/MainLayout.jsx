@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, Outlet } from "react-router-dom";
 import MainDrawer from "../MainDrawer";
-import logo from "../../img/269f1dbe9cf5a4bedbd2ed10f35d4dec.png";
+import logo from "../../img/apblock.png";
 import '../../component-styles/MainLayout.css';
 
 function MainLayout() {
@@ -24,7 +24,6 @@ function MainLayout() {
               src={logo}
               alt="AP Logo"
               height="50px"
-              width="50px"
             />
           </Link>
           {big &&

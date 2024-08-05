@@ -15,11 +15,12 @@
 }
 
 .sub-layout > .navbar > nav > a > img {
-	filter: brightness(0) invert(1);
+	filter: brightness(1);
+  transition: filter 0.35s;
 }
 
 .sub-layout > .navbar > nav > a > img:hover {
-	filter: grayscale(1);
+	filter: brightness(0.5);
 }
 
 .sub-layout > .navbar > nav > .links { 
