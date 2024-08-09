@@ -23,7 +23,7 @@ function MainLayout() {
             <img 
               src={logo}
               alt="AP Logo"
-              height="50px"
+              height="45px"
             />
           </Link>
           {big &&
