@@ -1,21 +1,27 @@
+
 .about {
-	display: flex;
+  display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .about > .about-flex-container > .about-text > p > a {
-	color: inherit;
+  color: inherit;
 }
 
 @media (max-width: 1024px) {
+  .about-page {
+    position: relative;
+    background-color: rgb(255, 229, 229);
+  }
+
 	.about > .about-flex-container {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
     justify-content: space-around;
-		height: 1100px;
+		height: 100%;
 		width: 80%;
 	}
 	
@@ -36,7 +42,12 @@
 
 
 @media (min-width: 1024px) {
-	.about > .about-flex-container {
+	.about-page {
+    height: 100vh;
+    background-color: rgb(255, 229, 229);
+  }
+  
+  .about > .about-flex-container {
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;

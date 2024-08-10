@@ -2,7 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
+  background-color: rgb(229, 237, 255)
 }
 
 @media (max-width: 1024px) {
@@ -16,6 +17,7 @@
 
 @media (min-width: 1024px) and (max-width: 1536px) {
   .education > .education-photos {
+    padding-top: 1rem;
     display: flex;
     justify-content: space-around;
 		height: 625px;
@@ -25,7 +27,13 @@
 }
 
 @media (min-width: 1536px) {
+  .education-page {
+    height: 100vh;
+    background-color: rgb(229, 237, 255)
+  }
+
   .education > .education-photos {
+    padding-top: 1rem;
     display: flex;
     justify-content: space-around;
 		height: 325px;
