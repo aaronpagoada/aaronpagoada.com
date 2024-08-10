@@ -52,11 +52,11 @@
   .main-layout > .navbar > nav > .links { 
     position: absolute;
     left: 50%;
-    top: 18rem;
+    top: 20rem;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    height: 8rem;
+    height: 11rem;
     justify-content: space-between;
     align-items: center;
   }
