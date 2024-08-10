@@ -7,8 +7,11 @@ async function titleCycle(){
   let i = 1
 
   while(i < 101){
-    await sleep(5000)
+    await sleep(3000)
+    title.style.opacity = '0'
+    await sleep(1000)
     title.textContent = titles[i % titles.length]
+    title.style.opacity = '1'
     i++
   }
 }

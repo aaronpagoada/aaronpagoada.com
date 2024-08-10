@@ -14,7 +14,8 @@
 .intro > .intro-text > h2 {
 	height: 20px;
 	margin-top: 0px;
-	opacity: 80%;
+	opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .intro > .intro-text > .active {
