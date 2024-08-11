@@ -10,7 +10,6 @@ function Work(){
   return (
     <div className="work-page">
       <div className="work">
-        <h3>Work</h3>
         <WorkTimeline />
         <div className="work-photos">
           <div>

@@ -12,7 +12,6 @@ const data = require("../data/Projects.json")
 function Projects(){
   return(
     <div className="projects">
-      <h3>Projects</h3>
       <div className="projects-text">
         <Typography variant="body1">
 					Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.

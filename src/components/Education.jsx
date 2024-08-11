@@ -11,7 +11,6 @@ function Education(){
   return(
     <div className="education-page">
       <div className="education">
-        <h3>Education</h3>
         <EducationTimeline />
         <div className="education-photos">
           <div>

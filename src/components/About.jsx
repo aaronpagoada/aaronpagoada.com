@@ -9,7 +9,6 @@ function About(){
   return(
     <div className="about-page">
       <div className="about">
-        <h3>About</h3>
         <div className="about-flex-container">
           <div className="image-box">
             <img id="about-image" src={require('../img/BoweryInterns-16.jpg')} alt="Bowery Headshot" />
