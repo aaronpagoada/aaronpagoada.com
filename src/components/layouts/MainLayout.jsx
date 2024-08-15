@@ -17,9 +17,9 @@ function MainLayout() {
           </Link>
           <div className="links">
             <Link to="/about">About</Link>
+            <Link to="/work">Work</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/education">Education</Link>
-            <Link to="/work">Work</Link>
           </div>
         </nav>
       </div>

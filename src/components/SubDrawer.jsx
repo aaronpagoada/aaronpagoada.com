@@ -23,7 +23,7 @@ function SubDrawer(){
         onClose={() => setIsOpen(false)}
       >
 				<List>
-					{['About', 'Projects', 'Education', 'Work'].map((linkText) => (
+					{['About', 'Work', 'Projects', 'Education'].map((linkText) => (
 						<ListItem key={linkText} disablePadding>
 							<ListItemButton>
 								<Link 
