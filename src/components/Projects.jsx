@@ -19,7 +19,7 @@ function Projects(){
 				</Typography>
 				<br/>
 				<Typography variant="body1">
-					All my projects are hosted on <Link to="https://github.com/aaronpagoada">Github</Link>.
+					All of my projects are hosted on <Link to="https://github.com/aaronpagoada"> my Github</Link>.
 				</Typography>
       </div>
       <div className="projects-cards">
