@@ -27,7 +27,7 @@ function About(){
             </Typography>
             <br />
             <Typography variant="body1">
-              I recently graduated from Macaulay Honors College at John Jay College where I studied Computer Science and Information Security.
+              I recently graduated from CUNY's Macaulay Honors College where I studied Computer Science and Information Security.
             </Typography>
             <br />
             <Typography variant="body1">
