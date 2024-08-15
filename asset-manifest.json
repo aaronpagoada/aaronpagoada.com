@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b84448c.css",
-    "main.js": "/static/js/main.ed42dd62.js",
+    "main.css": "/static/css/main.823f206b.css",
+    "main.js": "/static/js/main.14341291.js",
     "static/js/787.10fe8be0.chunk.js": "/static/js/787.10fe8be0.chunk.js",
     "static/media/climbing.jpg": "/static/media/climbing.610ca64d835e14107f3e.jpg",
     "static/media/Website.png": "/static/media/Website.389c8b796304acec589c.png",
@@ -18,13 +18,14 @@
     "static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.jpeg": "/static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.5a0a162954de7f4ab9ae.jpeg",
     "static/media/PizzaRat.png": "/static/media/PizzaRat.a93b31d38cf2607aad05.png",
     "static/media/Watson.png": "/static/media/Watson.26d1ee335da26cf92b88.png",
+    "static/media/logo.svg": "/static/media/logo.e37f0103c3639fb84ba93e49b0cf6644.svg",
     "index.html": "/index.html",
-    "main.9b84448c.css.map": "/static/css/main.9b84448c.css.map",
-    "main.ed42dd62.js.map": "/static/js/main.ed42dd62.js.map",
+    "main.823f206b.css.map": "/static/css/main.823f206b.css.map",
+    "main.14341291.js.map": "/static/js/main.14341291.js.map",
     "787.10fe8be0.chunk.js.map": "/static/js/787.10fe8be0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b84448c.css",
-    "static/js/main.ed42dd62.js"
+    "static/css/main.823f206b.css",
+    "static/js/main.14341291.js"
   ]
 }
