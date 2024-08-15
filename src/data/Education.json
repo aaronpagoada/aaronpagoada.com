@@ -1,5 +1,18 @@
 {
-  "education": [
+	"education": [
+		{
+			"school": "Macaulay Honors College at John Jay College",
+			"activity": "Graduated with B.S. in Computer Science and Information Security",
+			"time": "2023",
+			"expandedTime": "Aug 2019 - May 2023",
+			"location": "New York, NY",
+			"details": [
+				"Men's Soccer",
+				"Computer Science Society",
+				"Honors Program"
+			],
+			"color": "#f14323"
+		},
     {
       "school": "Brooklyn Technical High School",
       "activity": "Graduated High School",
@@ -11,19 +24,6 @@
         "World Scholar's Cup"
       ],
       "color": "#032d64"
-    },  
-    {
-      "school": "Macaulay Honors College at John Jay College",
-      "activity": "Graduated with B.S. in Computer Science and Information Security",
-      "time": "2023",
-      "expandedTime": "Aug 2019 - May 2023",
-      "location": "New York, NY",
-      "details": [
-        "Men's Soccer",
-        "Computer Science Society",
-        "Honors Program"
-      ],
-      "color": "#f14323"
     }
   ]
 }

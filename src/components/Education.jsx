@@ -14,20 +14,20 @@ function Education(){
         <EducationTimeline />
         <div className="education-photos">
           <div>
-            <img src={SoccerHS} alt="BTHS Soccer" />
-            <Typography variant="caption">Sep 2018, Brooklyn Tech varsity soccer, orange jersey</Typography>
-          </div>
-          <div>
-            <img src={WSC} alt="WSC" />
-            <Typography variant="caption">Jan 2019, World Scholar's Cup regional round in New York</Typography>
+            <img src={SoccerUni} alt="JJ Soccer" />
+            <Typography variant="caption">Sep 2022, John Jay goalkeepers, right</Typography>
           </div>
           <div>
             <img src={Climbing} alt="Climbing" />
             <Typography variant="caption">Apr 2022, leading a climbing outing for my peers in the John Jay Honors Program, squatting</Typography>
           </div>
           <div>
-            <img src={SoccerUni} alt="JJ Soccer" />
-            <Typography variant="caption">Sep 2022, John Jay goalkeepers, right</Typography>
+            <img src={WSC} alt="WSC" />
+            <Typography variant="caption">Jan 2019, World Scholar's Cup regional round in New York</Typography>
+          </div>
+          <div>
+            <img src={SoccerHS} alt="BTHS Soccer" />
+            <Typography variant="caption">Sep 2018, Brooklyn Tech varsity soccer, orange jersey</Typography>
           </div>
         </div>
       </div>

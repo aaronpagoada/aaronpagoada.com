@@ -1,74 +1,74 @@
 {
-  "work": [
+	"work": [
+		{
+			"company": "Vertex",
+			"position": "Software & Data Intern",
+			"time": "2024",
+			"location": "Boston, MA",
+			"expandedTime": "May 2024 - Aug 2024",
+			"details": [
+				"Consolidated 3 workforce databases into a single concise source using Snowflake and Python",
+				"Cleaned and optimized Snowflake tables with Python, streamlinig data analysis for non-technical users",
+				"Developed an internal Python web app consuming Collibra's APIs to help departments easily find and understand data sources and their technical lineage"
+			],
+			"icon": "insights",
+			"color": "#52247f"
+		},
+		{
+			"company": "GameChanger",
+			"position": "Software Engineer Intern",
+			"time": "2023",
+			"location": "New York, NY",
+			"expandedTime": "Jun 2023 - Aug 2023",
+			"details": [
+				"Integrated Okta authentication to an internal customer support application using TypeScript and Vue allowing users to log in securely with their Okta accounts",
+				"Developed a Python package to standardize AWS configurations making it easier to set up AWS on any machine, new or old",
+				"Created an in-app new-user guide using Swift to make learning how to use the app simpler"
+			],
+			"icon": "terminal",
+			"color": "#00f092"
+		},
     {
-      "company": "WatchWire",
-      "position": "Software Engineer Intern",
-      "time": "2021",
-      "location": "New York, NY",
-      "expandedTime": "Jun 2021 - Aug 2021",
-      "details": [
-        "Co-created a React component for clients to upload batch utility data (gas, water, electric) using AntD Icons, TailwindCSS, and FlatFile, providing a user-friendly tool for utility data management",
-        "Supported a colleague in learning the technologies above which sped up project progress",
-        "Worked in an agile scrum setting, gaining exposure to real-world software development practices"
-      ],
-      "icon": "terminal",
-      "color": "#b10c00"
-    },
-    {
-      "company": "John Jay College",
-      "position": "Computer Science & Mathematics Department Peer Mentor",
-      "time": "2022",
-      "location": "New York, NY",
-      "expandedTime": "Mar 2022 - Jun 2022",
-      "details": [
-        "Advised 5-10 students every week on how to start their technical careers",
-        "Collaborated with fellow mentors to create academic and professional guidelines for over 100 students providing a structured framework for students to excel in their pursuits",
-        "Created and shared a resource document containing technical tutorials, guides, and information about job openings"
-      ],
-      "icon": "groups",
-      "color": "#232c64"
-    },
-    {
-      "company": "Bowery Farming",
+			"company": "Bowery Farming",
       "position": "Software Engineer Intern",
       "time": "2022",
       "location": "New York, NY",
       "expandedTime": "Jun 2022 - Aug 2022",
       "details": [
-        "Created a complete web application using TypeScript, React, and TailwindCSS on the front and Elixir on the back to allow farmers to manage and create product storage locations without intervention from HQ",
+				"Created a complete web application using TypeScript, React, and TailwindCSS on the front and Elixir on the back to allow farmers to manage and create product storage locations without intervention from HQ",
         "Validated frontend with Cypress tests and backend with Elixir unit tests to ensure that the UI and backend functions worked correctly",
         "Volunteered at farms performing tasks such as moving vegetable trays, hand-harvesting, labeling produce clamshells, and preparing product boxes for delivery"
       ],
       "icon": "terminal",
       "color": "#0d3a25"
     },
-    {
-      "company": "GameChanger",
-      "position": "Software Engineer Intern",
-      "time": "2023",
-      "location": "New York, NY",
-      "expandedTime": "Jun 2023 - Aug 2023",
-      "details": [
-        "Integrated Okta authentication to an internal customer support application using TypeScript and Vue allowing users to log in securely with their Okta accounts",
-        "Developed a Python package to standardize AWS configurations making it easier to set up AWS on any machine, new or old",
-        "Created an in-app new-user guide using Swift to make learning how to use the app simpler"
-      ],
-      "icon": "terminal",
-      "color": "#00f092"
-    },
-    {
-      "company": "Vertex",
-      "position": "Software & Data Intern",
-      "time": "2024",
-      "location": "Boston, MA",
-      "expandedTime": "May 2024 - Aug 2024",
-      "details": [
-        "Consolidated 3 workforce databases into a single concise source using Snowflake and Python",
-        "Cleaned and optimized Snowflake tables with Python, streamlinig data analysis for non-technical users",
-        "Developed an internal Python web app consuming Collibra's APIs to help departments easily find and understand data sources and their technical lineage"
-      ],
-      "icon": "insights",
-      "color": "#52247f"
-    }
+		{
+			"company": "John Jay College",
+			"position": "Computer Science & Mathematics Department Peer Mentor",
+			"time": "2022",
+			"location": "New York, NY",
+			"expandedTime": "Mar 2022 - Jun 2022",
+			"details": [
+				"Advised 5-10 students every week on how to start their technical careers",
+				"Collaborated with fellow mentors to create academic and professional guidelines for over 100 students providing a structured framework for students to excel in their pursuits",
+				"Created and shared a resource document containing technical tutorials, guides, and information about job openings"
+			],
+			"icon": "groups",
+			"color": "#232c64"
+		},
+		{
+			"company": "WatchWire",
+			"position": "Software Engineer Intern",
+			"time": "2021",
+			"location": "New York, NY",
+			"expandedTime": "Jun 2021 - Aug 2021",
+			"details": [
+				"Co-created a React component for clients to upload batch utility data (gas, water, electric) using AntD Icons, TailwindCSS, and FlatFile, providing a user-friendly tool for utility data management",
+				"Supported a colleague in learning the technologies above which sped up project progress",
+				"Worked in an agile scrum setting, gaining exposure to real-world software development practices"
+			],
+			"icon": "terminal",
+			"color": "#b10c00"
+		}
   ]
 }

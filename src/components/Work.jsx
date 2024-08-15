@@ -13,16 +13,16 @@ function Work(){
         <WorkTimeline />
         <div className="work-photos">
           <div>
-            <img src={Bowery} alt="Bowery" />
-            <Typography variant="caption">Aug 2022, Bowery Farming summer interns, first on left</Typography>
+            <img src={Vertex} alt="Vertex" />
+            <Typography variant="caption">May 2024, Vertex summer interns, third row, fourth on right</Typography>
           </div>
           <div>
             <img src={GC} alt="GameChanger" />
             <Typography variant="caption">Jun 2023, GameChanger summer interns, third on left</Typography>
           </div>
           <div>
-            <img src={Vertex} alt="Vertex" />
-            <Typography variant="caption">May 2024, Vertex summer interns, third row, fourth on right</Typography>
+            <img src={Bowery} alt="Bowery" />
+            <Typography variant="caption">Aug 2022, Bowery Farming summer interns, first on left</Typography>
           </div>
         </div>
       </div>
