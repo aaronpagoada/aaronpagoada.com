@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography } from "@mui/material";
+import { Typography, rgbToHex } from "@mui/material";
 import { 
 	TimelineConnector,
 	TimelineContent,
@@ -14,7 +14,7 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 	const [isOpen, setIsOpen] = useState(false)
 
 	return (
-		<TimelineItem 
+		<TimelineItem
       onClick={() => setIsOpen(!isOpen)}
       sx={{ ":hover": { cursor: "pointer" }}}
     >
@@ -38,18 +38,9 @@ function TimelineCard({ time, activity, location, expandedTime, expandedLocation
 			</TimelineOppositeContent>
 			<TimelineSeparator>
 				<TimelineConnector />
-					{
-            !isOpen && 
-            <TimelineDot sx={{ ":hover": { backgroundColor: `${color}`} }}>
-					    {icon}
-				    </TimelineDot>
-          }
-          {
-            isOpen && 
-            <TimelineDot sx={{ backgroundColor: `${color}` }}>
-					    {icon}
-				    </TimelineDot>
-          }
+					<TimelineDot sx={{ backgroundColor: `${color}` }}>
+						{icon}
+					</TimelineDot>
 				<TimelineConnector />
 			</TimelineSeparator>
 			<TimelineContent>
