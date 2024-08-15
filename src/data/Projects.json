@@ -1,5 +1,12 @@
 {
   "projects": [
+		{
+			"name": "Scout",
+			"description": "An outdoor trip planner and journal webapp",
+			"language": "react",
+			"photo": "scout",
+			"link": "https://github.com/aaronpagoada/scout"
+		},
     {
       "name": "Pizza Rat",
       "description": "An MTA-based Discord bot",
@@ -9,7 +16,7 @@
     },
     {
       "name": "aaronpagoada.com",
-      "description": "This website",
+      "description": "This website - my personal website",
       "language": "react",
       "photo": "pagoadadotcom",
       "link": "https://github.com/aaronpagoada/aaronpagoada.com"

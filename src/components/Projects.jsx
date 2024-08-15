@@ -6,6 +6,7 @@ import PizzaRat from "../img/PizzaRat.png"
 import PagoadaDotCom from "../img/Website.png"
 import DoctorHelp from "../img/DoctorHelp.png"
 import Watson from "../img/Watson.png"
+import Scout from '../img/logo.svg'
 import "../component-styles/Projects.css"
 const data = require("../data/Projects.json")
 
@@ -38,6 +39,8 @@ function Projects(){
             case "watson":
               projectImage = Watson
               break
+						case "scout":
+							projectImage = Scout
           }
 
           return (
