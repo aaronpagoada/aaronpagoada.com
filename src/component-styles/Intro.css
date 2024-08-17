@@ -1,23 +1,30 @@
 .intro {
+	position: relative;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 100px;
+	justify-content: space-around;
+	height: 100vh;
 	align-items: center;
+	z-index: 3;
 }
 
-.intro > h1 {
+.intro > .intro-text {
+	width: 20rem;
+	text-align: center;
+}
+
+.intro > .intro-text > h1 {
 	margin-bottom: 0;
 	font-size: 36px;
 }
 
-.intro > .intro-text > h2 {
+.intro > .intro-text > .intro-text-titles > h2 {
 	height: 20px;
 	margin-top: 0px;
 	opacity: 1;
   transition: opacity 1s ease;
+	color: #000000;
 }
 
-.intro > .intro-text > .active {
-  color: #ffffff;
+.intro > .intro-text > .intro-text-titles > .active {
+  color: #000000;
 }

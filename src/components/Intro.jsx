@@ -9,10 +9,16 @@ function Intro(){
 
   return (
     <div className="intro">
-      <h1>Aaron Pagoada</h1>
-      <div className="intro-text">
-        <h2 id="title" className="active">Software Engineer</h2>
-      </div>
+			<div className="intro-photo">
+					<div className="intro-photo-backdrop"></div>
+					<img id="about-image" src={require('../img/BoweryInterns-16.png')} alt="Bowery Headshot" height="500px" />
+			</div>
+			<div className="intro-text">
+				<h1>Aaron Pagoada</h1>
+      	<div className="intro-text-titles">
+        	<h2 id="title" className="active">Software Engineer</h2>
+      	</div>
+			</div>
     </div>
   )
 }
