@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   .main-layout > .navbar > nav > .links { 
     display: flex;
     align-items: center;
@@ -32,22 +32,22 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .main-layout > .navbar > nav > .links { 
     position: absolute;
     left: 50%;
-    top: 20rem;
+    top: 21rem;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    height: 11rem;
+    height: 8rem;
     justify-content: space-between;
     align-items: center;
   }
   
   .main-layout > .navbar > nav > .links > * { 
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     position: relative;
   }
@@ -79,7 +79,7 @@
   width: 100%;
   align-items: center;
 	background-color: #0F1d1d;
-	z-index: 99;
+	z-index: 9;
 }
 
 .main-layout > .navbar > nav {

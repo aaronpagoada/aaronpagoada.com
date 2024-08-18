@@ -2,7 +2,7 @@ import sleep from "./sleep";
 
 async function titleCycle(){
   const title = document.getElementById('title')
-  const titles = ['Software Engineer', 'Explorer', 'Coach', 'Instructor', '(yes, my legs were tragically cut off)']
+  const titles = ['Software Engineer', 'Explorer', 'Coach', 'Instructor', 'the legless ._.']
 
   let i = 1
 
