@@ -11,7 +11,7 @@ function Intro(){
     <div className="intro">
 			<div className="intro-photo">
 					<div className="intro-photo-backdrop"></div>
-					<img id="about-image" src={require('../img/BoweryInterns-16.png')} alt="Bowery Headshot" height="500px" />
+					<img id="about-image" src={require('../img/BoweryInterns-16.png')} alt="Bowery Headshot" />
 			</div>
 			<div className="intro-text">
 				<h1>Aaron Pagoada</h1>
