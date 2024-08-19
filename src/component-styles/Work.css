@@ -1,6 +1,6 @@
 .work-page {
   position: relative;
-  background-color: rgb(255, 255, 229);
+  background-color: #f8fbf7;
 }
 
 @media (max-width: 1024px) {
