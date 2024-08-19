@@ -13,9 +13,9 @@ function Main() {
 				<div className="intro-overlay"></div>
 				<Intro />
 			</div>
-			<section id="about" className="about-container">
+			<div id="about" className="about-container">
 				<About />
-			</section>
+			</div>
 			<div id="work" className="work-container">
 				<Work />
 			</div>

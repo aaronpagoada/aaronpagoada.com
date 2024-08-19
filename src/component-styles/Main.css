@@ -11,3 +11,7 @@
 	background-position: center top;
 	opacity: 7%;
 }
+
+#about, #work, #projects, #education {
+  scroll-margin-top: 75px;
+}
