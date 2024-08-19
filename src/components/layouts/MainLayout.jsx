@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import logo from "../../img/apblock.png";
 import SubDrawer from "../SubDrawer";
 import '../../component-styles/MainLayout.css';
@@ -19,13 +19,13 @@ function MainLayout() {
     <div className="main-layout">
       <div className="navbar">
         <nav>
-          <Link to="/">
+          <a href="#home">
             <img 
               src={logo}
               alt="AP Logo"
               height="45px"
             />
-          </Link>
+          </a>
 					{big &&
 						<div className="links">
 							<a href="#about">About</a>

@@ -8,7 +8,7 @@ function Intro(){
   }, [])
 
   return (
-    <div className="intro">
+    <div id="home" className="intro">
 			<div className="intro-photo">
 					<div className="intro-photo-backdrop"></div>
 					<img id="about-image" src={require('../img/BoweryInterns-16.png')} alt="Bowery Headshot" />
