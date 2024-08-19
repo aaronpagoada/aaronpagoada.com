@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, rgbToHex } from "@mui/material";
+import { Typography } from "@mui/material";
 import { 
 	TimelineConnector,
 	TimelineContent,

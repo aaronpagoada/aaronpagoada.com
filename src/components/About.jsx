@@ -10,9 +10,6 @@ function About(){
     <div className="about-page">
       <div className="about">
         <div className="about-flex-container">
-          <div className="image-box">
-            <img id="about-image" src={require('../img/BoweryInterns-16.jpg')} alt="Bowery Headshot" />
-          </div>
           <div className="about-text">
             <Typography variant="body1">
               Hi, I'm Aaron!
@@ -44,7 +41,7 @@ function About(){
         </div>
       </div>  
     </div>
-  )
+	)
 }
 
 export default About;

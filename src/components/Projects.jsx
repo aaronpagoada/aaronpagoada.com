@@ -12,47 +12,49 @@ const data = require("../data/Projects.json")
 
 function Projects(){
   return(
-    <div className="projects">
-      <div className="projects-text">
-        <Typography variant="body1">
-					Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.
-				</Typography>
-				<br/>
-				<Typography variant="body1">
-					All of my projects are hosted on <Link to="https://github.com/aaronpagoada"> my Github</Link>.
-				</Typography>
-      </div>
-      <div className="projects-cards">
-        {data.projects.map((project) => {
-          let projectImage;
-
-          switch(project.photo){
-            case "pizzarat":
-              projectImage = PizzaRat
-              break
-            case "pagoadadotcom":
-              projectImage = PagoadaDotCom
-              break
-            case "doctorhelp":
-              projectImage = DoctorHelp
-              break
-            case "watson":
-              projectImage = Watson
-              break
-						case "scout":
-							projectImage = Scout
-          }
-
-          return (
-            <ProjectCard 
+    <div className="projects-page">
+      <div className="projects">
+        <div className="projects-text">
+          <Typography variant="body1">
+            Professionally, I've used React, TypeScript, JavaScript, Python, and Elixir. My personal projects are mostly built with some set of these languages.
+          </Typography>
+          <br/>
+          <Typography variant="body1">
+            All of my projects are hosted on <Link to="https://github.com/aaronpagoada"> my Github</Link>.
+          </Typography>
+        </div>
+        <div className="projects-cards">
+          {data.projects.map((project) => {
+            let projectImage;
+            
+            switch(project.photo){
+              case "pizzarat":
+                projectImage = PizzaRat
+                break
+                case "pagoadadotcom":
+                  projectImage = PagoadaDotCom
+                break
+                case "doctorhelp":
+                  projectImage = DoctorHelp
+                  break
+                  case "watson":
+                    projectImage = Watson
+                    break
+                    case "scout":
+                      projectImage = Scout
+                    }
+                    
+                    return (
+              <ProjectCard 
               name={project.name}
               description={project.description}
               language={project.language}
               photo={projectImage}
               link={project.link}
-            />
-          )
-        })}
+              />
+            )
+          })}
+        </div>
       </div>
     </div>
   )

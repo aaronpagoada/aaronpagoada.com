@@ -1,12 +1,4 @@
-@media (min-width: 1000px) {
-  .main-layout {
-    background-image: url('../img/PST00130.JPG');
-		background-repeat: no-repeat;
-		height: 100vh;
-		background-size: cover;
-    background-position: center center;
-	}
-
+@media (min-width: 1024px) {
   .main-layout > .navbar > nav > .links { 
     display: flex;
     align-items: center;
@@ -40,23 +32,15 @@
   }
 }
 
-@media (max-width: 1000px) {
-	.main-layout {
-		background-image: url('../img/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.jpeg');
-		background-repeat: no-repeat;
-		height: 100vh;
-		background-size: cover;
-		background-position: center center;
-	}
-
+@media (max-width: 1024px) {
   .main-layout > .navbar > nav > .links { 
     position: absolute;
     left: 50%;
-    top: 20rem;
+    top: 21rem;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    height: 11rem;
+    height: 8rem;
     justify-content: space-between;
     align-items: center;
   }
@@ -88,12 +72,14 @@
 }
 
 .main-layout > .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: center;
   height: 75px;
   width: 100%;
   align-items: center;
+	background-color: #0F1d1d;
+	z-index: 9;
 }
 
 .main-layout > .navbar > nav {
@@ -108,5 +94,5 @@
 }
 
 .main-layout > .navbar > nav > a > img:hover {
-	filter: brightness(0);
+	filter: brightness(50%);
 }

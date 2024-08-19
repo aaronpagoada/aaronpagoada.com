@@ -1,0 +1,17 @@
+.main-container > .intro-container > .intro-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	background-image: url('../img/colors-for-a-large-wall-1951.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	opacity: 7%;
+}
+
+#about, #work, #projects, #education {
+  scroll-margin-top: 75px;
+}
