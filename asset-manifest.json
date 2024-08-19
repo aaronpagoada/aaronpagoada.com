@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5ca462b.css",
-    "main.js": "/static/js/main.61539b35.js",
+    "main.css": "/static/css/main.becab2d0.css",
+    "main.js": "/static/js/main.9604d3b0.js",
     "static/js/787.10fe8be0.chunk.js": "/static/js/787.10fe8be0.chunk.js",
+    "static/media/BoweryInterns-16.png": "/static/media/BoweryInterns-16.ce53abfae98ba7589c68.png",
     "static/media/climbing.jpg": "/static/media/climbing.610ca64d835e14107f3e.jpg",
     "static/media/Website.png": "/static/media/Website.389c8b796304acec589c.png",
     "static/media/wsc.jpg": "/static/media/wsc.e51975bb021ff7b21ce6.jpg",
-    "static/media/PST00130.JPG": "/static/media/PST00130.d953303e6251d5ce7906.JPG",
     "static/media/soccerhs2.jpg": "/static/media/soccerhs2.a9904716bf8c55cd8b4f.jpg",
     "static/media/bowery.jpeg": "/static/media/bowery.24cebbf4e998c4c4736b.jpeg",
-    "static/media/BoweryInterns-16.jpg": "/static/media/BoweryInterns-16.820380b8e07937922031.jpg",
     "static/media/socceruni.jpeg": "/static/media/socceruni.8e2ae88df6107fcdfdf2.jpeg",
     "static/media/gc.jpeg": "/static/media/gc.8bfcff8fedcf4c1438da.jpeg",
     "static/media/IMG_8196(1).jpg": "/static/media/IMG_8196(1).da022f660772b123cd5f.jpg",
     "static/media/Python.png": "/static/media/Python.d013e8838b1fdb7a5794.png",
     "static/media/DoctorHelp.png": "/static/media/DoctorHelp.85b11769f622c577fa34.png",
-    "static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.jpeg": "/static/media/1D16F7F0-D111-4511-88EA-1AFB3CE2B9CA.5a0a162954de7f4ab9ae.jpeg",
+    "static/media/colors-for-a-large-wall-1951.jpg": "/static/media/colors-for-a-large-wall-1951.a45d8f66a21f3b048857.jpg",
     "static/media/PizzaRat.png": "/static/media/PizzaRat.a93b31d38cf2607aad05.png",
     "static/media/Watson.png": "/static/media/Watson.26d1ee335da26cf92b88.png",
     "static/media/logo.svg": "/static/media/logo.e37f0103c3639fb84ba93e49b0cf6644.svg",
     "index.html": "/index.html",
-    "main.a5ca462b.css.map": "/static/css/main.a5ca462b.css.map",
-    "main.61539b35.js.map": "/static/js/main.61539b35.js.map",
+    "main.becab2d0.css.map": "/static/css/main.becab2d0.css.map",
+    "main.9604d3b0.js.map": "/static/js/main.9604d3b0.js.map",
     "787.10fe8be0.chunk.js.map": "/static/js/787.10fe8be0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5ca462b.css",
-    "static/js/main.61539b35.js"
+    "static/css/main.becab2d0.css",
+    "static/js/main.9604d3b0.js"
   ]
 }
