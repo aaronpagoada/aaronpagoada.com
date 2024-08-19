@@ -1,21 +1,24 @@
-.work {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  padding-bottom: 40px;
-	padding-top: 40px;
+.work-page {
+  position: relative;
+  background-color: rgb(255, 255, 229);
 }
 
 @media (max-width: 1024px) {
-  .work-page {
-    position: relative;
-    background-color: rgb(255, 255, 229);
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 }
 
 @media (min-width: 1024px) {
-  .work-page {
-    height: 100vh;
-    background-color: rgb(255, 255, 229);
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 }
