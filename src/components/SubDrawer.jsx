@@ -26,15 +26,15 @@ function SubDrawer(){
 					{['About', 'Work', 'Projects', 'Education'].map((linkText) => (
 						<ListItem key={linkText} disablePadding>
 							<ListItemButton>
-								<Link 
-                  to={`/${linkText.toLowerCase()}`}
+								<a 
+                  href={`#${linkText.toLowerCase()}`}
                   style={{ 
                     textDecoration: 'none',
                     color: '#000000'
                   }}  
                 >
 									<ListItemText primary={linkText} />
-								</Link>
+								</a>
 							</ListItemButton>
 						</ListItem>
 					))}

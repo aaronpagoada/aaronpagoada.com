@@ -28,10 +28,10 @@ function MainLayout() {
           </Link>
 					{big &&
 						<div className="links">
-							<Link to="/about">About</Link>
-							<Link to="/work">Work</Link>
-							<Link to="/projects">Projects</Link>
-							<Link to="/education">Education</Link>
+							<a href="#about">About</a>
+							<a href="#work">Work</a>
+							<a href="#projects">Projects</a>
+							<a href="#education">Education</a>
 						</div>
 					}
 					{!big &&

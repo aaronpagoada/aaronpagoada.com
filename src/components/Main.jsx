@@ -13,16 +13,16 @@ function Main() {
 				<div className="intro-overlay"></div>
 				<Intro />
 			</div>
-			<div className="about-container">
+			<section id="about" className="about-container">
 				<About />
-			</div>
-			<div className="work-container">
+			</section>
+			<div id="work" className="work-container">
 				<Work />
 			</div>
-			<div className="projects-container">
+			<div id="projects" className="projects-container">
 				<Projects />
 			</div>
-			<div className="education-container">
+			<div id="education" className="education-container">
 				<Education />
 			</div>	
 		</div>
