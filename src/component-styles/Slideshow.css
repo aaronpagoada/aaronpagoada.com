@@ -1,0 +1,31 @@
+.slideshow {
+  margin: 0 auto;
+  width: 350px;
+  overflow: hidden;
+}
+
+.slideshow > .slides-container {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slideshow > .slides-container > .slide {
+  display: inline-block;
+  height: 250px;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.slideshow > .slideshow-dots {
+  text-align: center;
+}
+
+.slideshow > .slideshow-dots > .dot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background-color: #c4c4c4;
+}

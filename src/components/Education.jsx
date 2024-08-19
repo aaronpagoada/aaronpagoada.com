@@ -6,12 +6,14 @@ import WSC from "../img/wsc.jpg"
 import Climbing from "../img/climbing.jpg"
 import SoccerUni from "../img/socceruni.jpeg"
 import "../component-styles/Education.css"
+import Slideshow from "./Slideshow";
 
 function Education(){
   return(
     <div className="education-page">
       <div className="education">
         <EducationTimeline />
+        <Slideshow />
         <div className="education-photos">
           <div>
             <img src={SoccerUni} alt="JJ Soccer" />
