@@ -9,11 +9,21 @@
   transition: ease 1000ms;
 }
 
-.slideshow > .slides-container > .slide {
+.slideshow > .slides-container > img {
   display: inline-block;
   height: 250px;
   width: 100%;
-  border-radius: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.slideshow > .slides-container > .captions {
+  height: 30px;
+}
+
+.slideshow > .slides-container > .captions > * {
+  display: inline-block;
+  width: 100%;
 }
 
 .slideshow > .slideshow-dots {
@@ -28,4 +38,8 @@
   cursor: pointer;
   margin: 15px 7px 0px;
   background-color: #c4c4c4;
+}
+
+.slideshow > .slideshow-dots > .dot.active {
+  background-color: #6a0dad;
 }

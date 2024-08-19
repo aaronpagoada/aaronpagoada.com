@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
+import { Typography } from '@mui/material'
 import "../component-styles/Slideshow.css"
 
-function Slideshow() {
-  const colors = ["#0088FE", "#00C49F", "#FFBB28"]
+function Slideshow({ images, captions }) {
   const [index, setIndex] = useState(0)
 
   return (
@@ -11,20 +11,27 @@ function Slideshow() {
         className="slides-container"
         style={{ transform: `translateX(${-index * 100}%)` }}  
       >
-        {
-          colors.map((color, index) => (
-            <div className="slide" key={index} style={{ backgroundColor: `${color}` }} />
-          ))
-        }
+        {images.map((image) => (
+          <img src={image} />
+        ))}
+        <div 
+          className="captions"
+        >
+          {captions.map((caption) => (
+            <Typography variant="caption">{caption}</Typography>
+          ))}
+        </div>
       </div>
       <div className="slideshow-dots">
-        {
-          colors.map((_, idx) => (
-            <div className='dot' key={idx} onClick={() => {
+        {images.map((_, idx) => (
+          <div 
+            className={`dot${index === idx ? " active" : ""}`} 
+            key={idx} 
+            onClick={() => {
               setIndex(idx)
-            }}></div>
-          ))
-        }
+            }}
+          />
+        ))}
       </div>
     </div>
   )

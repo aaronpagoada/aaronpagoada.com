@@ -11,14 +11,6 @@
     position: relative;
     background-color: rgb(255, 255, 229);
   }
-
-  .work > .work-photos {
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 900px; 
-  }
 }
 
 @media (min-width: 1024px) {
@@ -26,23 +18,4 @@
     height: 100vh;
     background-color: rgb(255, 255, 229);
   }
-
-  .work > .work-photos {
-    padding-top: 1rem;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-  }
-}
-
-.work > .work-photos > div {
-	height: 250px;
-  width: 350px;
-}
-
-.work > .work-photos > div > img {
-	object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
 }
