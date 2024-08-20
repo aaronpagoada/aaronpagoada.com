@@ -2,7 +2,7 @@
   .main-layout > .navbar > nav > .links { 
     display: flex;
     align-items: center;
-    width: 20rem;
+    width: 22rem;
     justify-content: space-between;
   }
   
@@ -34,15 +34,10 @@
 
 @media (max-width: 1024px) {
   .main-layout > .navbar > nav > .links { 
-    position: absolute;
-    left: 50%;
-    top: 21rem;
-    transform: translate(-50%, -50%);
     display: flex;
-    flex-direction: column;
-    height: 8rem;
-    justify-content: space-between;
     align-items: center;
+    width: 17rem;
+    justify-content: space-between;
   }
   
   .main-layout > .navbar > nav > .links > * { 
