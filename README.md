@@ -4,4 +4,4 @@
 [aaronpagoada.com](https://aaronpagoada.com) is my personal website.
 
 ## Notes
-This website was built using React and some components from MUI.
+This website was built using React and some components from MaterialUI.                                                                     
