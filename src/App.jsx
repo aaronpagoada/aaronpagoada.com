@@ -1,13 +1,11 @@
-import ThemeToggle from './components/ThemeToggle'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './components/Header'
 import './App.css'
 
 function App() {
   return (
-    <>
-      <ThemeToggle />
-    </>
+    <div className='md:pl-16 md:pr-16'>
+      <Header />
+    </div>
   )
 }
 
