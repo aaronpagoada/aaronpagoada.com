@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className='md:pl-16 md:pr-16'>
+    <div className='bg-white dark:bg-black md:pl-16 md:pr-16 h-screen'>
       <Header />
     </div>
   )
