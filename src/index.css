@@ -1,6 +1,17 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --color-vertex: #9960d2;
+  --color-gc: #00f092;
+  --color-bowery: #59d99d;
+  --color-watchwire: #ff4133;
+  --color-vertex-2: #52247f;
+  --color-gc-2: #00995e;
+  --color-bowery-2: #0d3a25;
+  --color-watchwire-2: #b10c00;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
