@@ -4,7 +4,7 @@ function About() {
       <h1 className="text-xl font-bold">About</h1>
       <p className="pb-8 md:text-xl">Hi, I'm Aarón. I am a software engineer with a focus in web development.</p>
       <p className="pb-8 md:text-xl">
-        Fueled by an aspiration to build beautiful experiences, I am fortunate to have contributed to teams at
+        Fueled by an innate desire to create, I am fortunate to have contributed to teams at
         <a className="text-vertex-2 dark:text-vertex" href="https://vrtx.com/"> Vertex Pharmaceuticals</a>,
         <a className="text-gc-2 dark:text-gc" href="https://gc.com/"> GameChanger</a>,
         <a className="text-bowery-2 dark:text-bowery" href="https://bowery.co/"> Bowery Farming</a>, and
