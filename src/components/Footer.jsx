@@ -2,7 +2,9 @@ function Footer() {
   return (
     <div>
       <div className="text-sm font-bold text-gray-800 dark:text-white flex justify-start pb-6">
-        <h1>About</h1>
+        <a href="/">
+          <h1>About</h1>
+        </a>
         <h1 className="pl-8">Work</h1>
         <h1 className="pl-8">Education</h1>
         <h1 className="pl-8">Projects</h1>
