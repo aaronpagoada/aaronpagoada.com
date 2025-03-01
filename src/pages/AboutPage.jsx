@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import Scroller from "../components/Scroller";
 
 function AboutPage() {
   return (
@@ -8,6 +9,7 @@ function AboutPage() {
       <Header />
       <About />
       <Footer />
+      <Scroller length={6} />
     </div>
   )
 }
