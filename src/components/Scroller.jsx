@@ -1,4 +1,4 @@
-function Scroller({ images }) {
+function Scroller({ images, title }) {
   //const items = new Array(length)
 
   //for (let i = 0; i < items.length; i++) {
@@ -10,6 +10,8 @@ function Scroller({ images }) {
 
   return (
     <div className="pb-8 text-gray-800 dark:text-white overflow-auto whitespace-nowrap">
+      <h1 className="text-xl font-bold pb-4">{title}</h1>
+
       {images.map(image => (
 
         <div className="mr-8 p-1 border border-solid inline-block h-54 w-72">

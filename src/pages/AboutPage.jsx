@@ -14,7 +14,7 @@ function AboutPage() {
       <Header />
       <About />
       <Footer />
-      <Scroller images={images} />
+      <Scroller images={images} title="Gallery" />
     </div>
   )
 }
