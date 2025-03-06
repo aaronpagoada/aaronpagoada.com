@@ -8,9 +8,14 @@ function Scroller({ images, title }) {
             <img className="object-cover w-full h-full" src={image} />
           </div>
         ))}
-        <div className="text-stone-800 bg-stone-100 dark:text-white dark:bg-stone-900 inline-block pt-27 pb-26.5 w-80 text-center align-top">
-          View gal
-        </div>
+        <a href="/gallery">
+          <div className="group relative text-stone-800 bg-stone-100 dark:text-white dark:bg-stone-900 inline-block pt-27 pb-26.5 w-80 text-center align-top">
+            <span>
+              View gallery
+              <span className="absolute ml-2 opacity-0 transition group-hover:opacity-100 group-hover:translate-x-4">→</span>
+            </span>
+          </div>
+        </a>
       </div >
     </div>
   )
