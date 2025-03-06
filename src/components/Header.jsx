@@ -5,7 +5,7 @@ function Header() {
   const [bin, setBin] = useState(true);
 
   return (
-    <div className="text-gray-800 dark:text-white pt-32 pb-16 flex justify-between">
+    <div className="text-stone-800 dark:text-white pt-32 pb-16 flex justify-between">
       <div>
         <h1 className="text-xl font-bold">Aarón Pagoada</h1>
         {bin
