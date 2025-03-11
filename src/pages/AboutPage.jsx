@@ -3,6 +3,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Scroller from "../components/Scroller";
 import galleryImages from "../utils/galleryImages";
+import Timeline from "../components/Timeline";
 
 function AboutPage() {
   return (
@@ -10,6 +11,8 @@ function AboutPage() {
       <Header />
       <About />
       <Footer />
+      <Timeline title="Work" />
+      <Timeline title="Education" />
       <Scroller images={galleryImages} title="Gallery" />
     </div>
   )

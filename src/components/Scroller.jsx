@@ -1,8 +1,8 @@
 function Scroller({ images, title }) {
   return (
-    <div className="pb-8">
+    <div className="pb-8 text-stone-800 dark:text-white">
       <h1 className="text-xl font-bold pb-4">{title}</h1>
-      <div className="pb-4 text-stone-800 dark:text-white overflow-auto whitespace-nowrap">
+      <div className="pb-4 overflow-auto whitespace-nowrap">
         {images.map(image => (
           <div className="mr-8 p-1 border border-solid inline-block h-60 w-80">
             <img className="object-cover w-full h-full" src={image} />
