@@ -2,8 +2,10 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Scroller from "../components/Scroller";
+import Eventline from "../components/Eventline";
 import galleryImages from "../utils/galleryImages";
-import Timeline from "../components/Timeline";
+import work from "../data/Work.json"
+import education from "../data/Education.json"
 
 function AboutPage() {
   return (
@@ -11,8 +13,8 @@ function AboutPage() {
       <Header />
       <About />
       <Footer />
-      <Timeline title="Work" />
-      <Timeline title="Education" />
+      <Eventline title="Work" items={work.work} />
+      <Eventline title="Education" items={education.education} />
       <Scroller images={galleryImages} title="Gallery" />
     </div>
   )
