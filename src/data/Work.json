@@ -1,6 +1,18 @@
 {
   "work": [
     {
+      "company": "Google",
+      "position": "Software Engineer",
+      "time": "2025",
+      "location": "Sunnyvale, CA",
+      "expandedTime": "April 2025 - Future",
+      "details": [
+        "Machine Automation"
+      ],
+      "icon": "terminal",
+      "color": "#4285F4"
+    },
+    {
       "company": "Vertex",
       "position": "Software & Data Intern",
       "time": "2024",
@@ -44,7 +56,7 @@
     },
     {
       "company": "John Jay College",
-      "position": "Computer Science & Mathematics Department Peer Mentor",
+      "position": "Computer Science Department Peer Mentor",
       "time": "2022",
       "location": "New York, NY",
       "expandedTime": "Mar 2022 - Jun 2022",

@@ -5,10 +5,21 @@ function Footer() {
         <a href="/">
           <h1>About</h1>
         </a>
-        <h1 className="pl-8">Work</h1>
-        <h1 className="pl-8">Education</h1>
-        <h1 className="pl-8">Projects</h1>
-        <h1 className="pl-8">Gallery</h1>
+        <h1 className="pl-8">
+          <a href="#work">
+            Work
+          </a>
+        </h1>
+        <h1 className="pl-8">
+          <a href="#education">
+            Education
+          </a>
+        </h1>
+        <h1 className="pl-8">
+          <a href="/gallery">
+            Gallery
+          </a>
+        </h1>
       </div>
       <div className="h-18 flex jusitfy-start">
         <a href="https://www.linkedin.com/in/aaronpagoada">

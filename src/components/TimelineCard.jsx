@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ThemeProvider, createTheme } from "@mui/material";
 import { Typography } from "@mui/material";
 import {
   TimelineConnector,
@@ -10,13 +11,13 @@ import {
 } from "@mui/lab";
 
 
-function EventlineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails, icon, color }) {
+function TimelineCard({ time, activity, location, expandedTime, expandedLocation, expandedDetails, icon, color }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <TimelineItem
       onClick={() => setIsOpen(!isOpen)}
-      sx={{ ":hover": { cursor: "pointer" } }}
+      sx={{ ":hover": { cursor: "pointer" }, pl: 0, pr: 0 }}
     >
       <TimelineOppositeContent
         sx={{
@@ -25,14 +26,14 @@ function EventlineCard({ time, activity, location, expandedTime, expandedLocatio
       >
         {
           !isOpen &&
-          <Typography color="text.secondary" variant="caption">{time}</Typography>
+          <Typography className="text-stone-800 dark:text-white" variant="caption">{time}</Typography>
         }
         {
           isOpen &&
           <div>
-            <Typography color="text.secondary" variant="caption">{time}</Typography>
-            <Typography variant="body1">{expandedTime}</Typography>
-            <Typography color="text.secondary" variant="caption">{expandedLocation}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="caption">{time}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="body1">{expandedTime}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="caption">{expandedLocation}</Typography>
           </div>
         }
       </TimelineOppositeContent>
@@ -47,19 +48,19 @@ function EventlineCard({ time, activity, location, expandedTime, expandedLocatio
         {
           !isOpen &&
           <div>
-            <Typography variant="h6">{location}</Typography>
-            <Typography color="text.secondary" variant="subtitle2">{activity}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="h6">{location}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="subtitle2">{activity}</Typography>
           </div>
         }
         {
           isOpen &&
           <div>
-            <Typography variant="h6">{location}</Typography>
-            <Typography color="text.secondary" variant="subtitle2">{activity}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="h6">{location}</Typography>
+            <Typography className="text-stone-800 dark:text-white" variant="subtitle2">{activity}</Typography>
             {expandedDetails.map((detail) => {
               return (
                 <Typography
-                  color="text.secondary"
+                  className="text-stone-800 dark:text-white"
                   variant="caption"
                   display="block"
                 >
@@ -74,4 +75,4 @@ function EventlineCard({ time, activity, location, expandedTime, expandedLocatio
   )
 }
 
-export default EventlineCard
+export default TimelineCard
