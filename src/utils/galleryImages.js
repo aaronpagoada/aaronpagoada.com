@@ -9,7 +9,8 @@ import utahMoon from "../assets/img/favorite_photo_ive_taken1(1).jpg"
 import moon from "../assets/img/DSC03406_01.jpg"
 import climb from "../assets/img/PST00100.jpg"
 import hallway from "../assets/img/DSC04311.jpg"
+import bridge from "../assets/img/IMG_1566_EDIT.jpg"
 
 export const scrollerImages = [hunter, portrait, lone, treeman, quad, pose]
 
-export const galleryImages = [hunter, climb, portrait, lone, moon, treeman, quad, pose, hallway, utahMoon, five]
+export const galleryImages = [hunter, climb, portrait, bridge, lone, moon, treeman, quad, pose, hallway, utahMoon, five]
