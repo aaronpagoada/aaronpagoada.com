@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Scroller from "../components/Scroller";
-import galleryImages from "../utils/galleryImages";
+import { scrollerImages } from "../utils/galleryImages";
 import WorkTimeline from "../components/WorkTimeline";
 import EducationTimeline from "../components/EducationTimeline";
 
@@ -14,7 +14,7 @@ function AboutPage() {
       <Footer />
       <WorkTimeline />
       <EducationTimeline />
-      <Scroller images={galleryImages} title="Gallery" />
+      <Scroller images={scrollerImages} title="Gallery" />
     </div>
   )
 }
