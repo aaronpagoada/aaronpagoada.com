@@ -1,4 +1,4 @@
-import GalleryFooter from "../components/Footer";
+import GalleryFooter from "../components/GalleryFooter";
 import Header from "../components/Header";
 import ImageMasonry from "../components/ImageMasonry";
 
