@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      if(localStorage.getItem("theme") === "dark" || (!("theme" in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.body.classList.add("dark")
+      } else {
+        document.body.classList.remove("dark")
+      }
+    </script>
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,6 +15,8 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <style> body { background-color: #F9FAFC; }</style> 
+    <style> body.dark { background-color: #1A1A1A; } </style>
   </head>
   <body>
     <div id="root"></div>

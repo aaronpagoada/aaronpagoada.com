@@ -5,7 +5,7 @@ function Scroller({ images, title }) {
       <div className="pb-4 overflow-auto whitespace-nowrap">
         {images.map(image => (
           <div className="mr-8 p-1 border border-solid inline-block h-60 w-80">
-            <img className="object-cover w-full h-full" src={image} />
+            <img className="object-cover w-full h-full" src={image} loading="lazy" />
           </div>
         ))}
         <a href="/gallery">
