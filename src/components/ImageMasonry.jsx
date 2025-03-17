@@ -11,7 +11,7 @@ function ImageMasonry() {
     <div className="pt-16 pb-8 md:pr-24 text-stone-800 dark:text-white">
       <h1 className="text-4xl font-bold pb-16">Gallery</h1>
       <Box >
-        <ImageList variant="masonry" cols={matches ? 3 : 1} gap={8}>
+        <ImageList variant="masonry" cols={matches ? 3 : 2} gap={8}>
           {galleryImages.map((image, index) => (
             <ImageListItem key={index}>
               <img className="object-cover w-full h-full" src={image} loading="lazy" />
