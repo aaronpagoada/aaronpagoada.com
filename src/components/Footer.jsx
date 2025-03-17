@@ -1,4 +1,4 @@
-function Footer() {
+function GalleryFooter() {
   return (
     <div>
       <div className="text-sm font-bold text-stone-800 dark:text-white flex justify-start pb-6">
@@ -6,17 +6,7 @@ function Footer() {
           <h1>About</h1>
         </a>
         <h1 className="pl-8">
-          <a href="#work">
-            Work
-          </a>
-        </h1>
-        <h1 className="pl-8">
-          <a href="#education">
-            Education
-          </a>
-        </h1>
-        <h1 className="pl-8">
-          <a href="/gallery">
+          <a href="gallery">
             Gallery
           </a>
         </h1>
@@ -38,4 +28,4 @@ function Footer() {
   )
 }
 
-export default Footer;
+export default GalleryFooter;
