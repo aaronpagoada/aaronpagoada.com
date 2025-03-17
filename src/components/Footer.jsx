@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <div>
       <div className="text-sm font-bold text-stone-800 dark:text-white flex justify-start pb-6">
-        <a href="/">
+        <Link to="/">
           <h1>About</h1>
-        </a>
+        </Link>
         <h1 className="pl-8">
-          <a href="/#work">
+          <a href="#work">
             Work
           </a>
         </h1>
@@ -16,9 +18,9 @@ function Footer() {
           </a>
         </h1>
         <h1 className="pl-8">
-          <a href="gallery">
+          <Link to="/gallery">
             Gallery
-          </a>
+          </Link>
         </h1>
       </div>
       <div className="h-18 flex jusitfy-start">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Scroller({ images, title }) {
   return (
     <div className="pb-8 text-stone-800 dark:text-white">
@@ -8,14 +10,14 @@ function Scroller({ images, title }) {
             <img className="object-cover w-full h-full" src={image} loading="lazy" />
           </div>
         ))}
-        <a href="/gallery">
+        <Link to="/gallery">
           <div className="group relative text-stone-800 bg-stone-100 dark:text-white dark:bg-stone-900 inline-block pt-27 pb-26.5 w-80 text-center align-top">
             <span>
               View gallery
               <span className="absolute ml-2 opacity-0 transition group-hover:opacity-100 group-hover:translate-x-4">→</span>
             </span>
           </div>
-        </a>
+        </Link>
       </div >
     </div>
   )
