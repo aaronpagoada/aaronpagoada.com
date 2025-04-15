@@ -20,7 +20,7 @@
       "expandedTime": "May 2024 - Aug 2024",
       "details": [
         "Consolidated 3 workforce databases into a single concise source using Snowflake and Python",
-        "Cleaned and optimized Snowflake tables with Python, streamlinig data analysis for non-technical users",
+        "Cleaned and optimized Snowflake tables with Python, streamlining data analysis for non-technical users",
         "Developed an internal Python web app consuming Collibra's APIs to help departments easily find and understand data sources and their technical lineage"
       ],
       "icon": "insights",
